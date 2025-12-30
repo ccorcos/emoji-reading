@@ -9,6 +9,7 @@ const SVG_HEIGHT = 816; // 8.5 inches at 96 DPI
 const FONT_SIZE = 24; // Large font for toddlers
 const PADDING = FONT_SIZE / 4; // Padding around each word
 const MAX_ATTEMPTS = 5000; // Maximum attempts to place a word
+const WORD_REPETITIONS = 2; // Number of times to include each word (1 = once, 2 = twice, etc.)
 
 // Read words from file
 function readWords(filename) {
@@ -156,8 +157,20 @@ function main() {
 	const outputFile = process.argv[3] || "reading.svg";
 
 	console.log(`Reading words from: ${inputFile}`);
-	const words = readWords(inputFile);
+	let words = readWords(inputFile);
 	console.log(`Found ${words.length} words`);
+
+	// Repeat each word n times if configured
+	if (WORD_REPETITIONS > 1) {
+		const originalWords = [...words];
+		words = [];
+		for (let i = 0; i < WORD_REPETITIONS; i++) {
+			words.push(...originalWords);
+		}
+		console.log(
+			`Including each word ${WORD_REPETITIONS} times (${words.length} total words)`
+		);
+	}
 
 	console.log("Generating SVG...");
 
