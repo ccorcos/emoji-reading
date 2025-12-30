@@ -71,6 +71,7 @@ function findNonOverlappingPosition(
 function generateSVG(words) {
 	const placedRectangles = [];
 	const textElements = [];
+	const unplacedWords = [];
 
 	// Shuffle words for random order
 	const shuffledWords = [...words].sort(() => Math.random() - 0.5);
@@ -101,10 +102,17 @@ function generateSVG(words) {
 				rotation,
 			});
 		} else {
-			console.warn(
-				`Warning: Could not place word "${word}" - no space available`
-			);
+			unplacedWords.push(word);
 		}
+	}
+
+	// If we couldn't place all words, throw an error
+	if (unplacedWords.length > 0) {
+		throw new Error(
+			`Failed to place ${unplacedWords.length} word(s): ${unplacedWords.join(
+				", "
+			)}. ` + `Try reducing font size or increasing canvas size.`
+		);
 	}
 
 	// Build SVG
@@ -152,7 +160,26 @@ function main() {
 	console.log(`Found ${words.length} words`);
 
 	console.log("Generating SVG...");
-	const svg = generateSVG(words);
+
+	// Try multiple times with different random seeds to ensure all words fit
+	let svg;
+	let attempts = 0;
+	const maxRetries = 10;
+
+	while (attempts < maxRetries) {
+		try {
+			svg = generateSVG(words);
+			console.log(`✓ Successfully placed all ${words.length} words!`);
+			break;
+		} catch (error) {
+			attempts++;
+			if (attempts >= maxRetries) {
+				console.error(`Failed after ${maxRetries} attempts: ${error.message}`);
+				process.exit(1);
+			}
+			console.log(`Attempt ${attempts} failed, retrying...`);
+		}
+	}
 
 	fs.writeFileSync(outputFile, svg, "utf-8");
 	console.log(`SVG saved to: ${outputFile}`);
