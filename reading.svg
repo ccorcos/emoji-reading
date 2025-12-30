@@ -5,46 +5,38 @@
   <rect width="100%" height="100%" fill="#FFFFFF"/>
 
   <!-- Words -->
-  <g font-family="Arial, sans-serif" font-size="42" text-anchor="middle">
-    <text x="964.78" y="723.19" transform="rotate(1.09 964.78 723.19)">🌈⭐</text>
-    <text x="113.66" y="679.31" transform="rotate(-14.43 113.66 679.31)">🍎🐭</text>
-    <text x="685.63" y="377.01" transform="rotate(-1.33 685.63 377.01)">✈️☁️</text>
-    <text x="153.97" y="754.99" transform="rotate(5.80 153.97 754.99)">🧀🐶</text>
-    <text x="113.52" y="156.83" transform="rotate(-7.25 113.52 156.83)">🐰🐢</text>
-    <text x="957.96" y="123.51" transform="rotate(7.70 957.96 123.51)">🌳🐦</text>
-    <text x="352.16" y="656.19" transform="rotate(0.33 352.16 656.19)">🧸📦</text>
-    <text x="315.36" y="502.18" transform="rotate(7.68 315.36 502.18)">🐦🌳</text>
-    <text x="793.38" y="481.66" transform="rotate(-11.13 793.38 481.66)">🍌🐵</text>
-    <text x="397.55" y="358.99" transform="rotate(-1.40 397.55 358.99)">🌼🐸</text>
-    <text x="113.45" y="348.78" transform="rotate(-13.37 113.45 348.78)">🐷🍪</text>
-    <text x="535.61" y="571.17" transform="rotate(-1.71 535.61 571.17)">🧼🛁</text>
-    <text x="472.31" y="226.32" transform="rotate(-14.66 472.31 226.32)">🐶🧀</text>
-    <text x="153.83" y="268.69" transform="rotate(5.61 153.83 268.69)">🏠🔑</text>
-    <text x="386.80" y="150.54" transform="rotate(14.72 386.80 150.54)">🐵🍌</text>
-    <text x="723.53" y="677.90" transform="rotate(12.77 723.53 677.90)">⭐🌈</text>
-    <text x="739.54" y="212.21" transform="rotate(6.31 739.54 212.21)">☁️✈️</text>
-    <text x="911.85" y="220.06" transform="rotate(0.29 911.85 220.06)">🐸🐷</text>
-    <text x="532.55" y="744.54" transform="rotate(1.04 532.55 744.54)">🍪🐷</text>
-    <text x="496.20" y="430.91" transform="rotate(-9.25 496.20 430.91)">📦🧸</text>
-    <text x="274.96" y="574.19" transform="rotate(6.23 274.96 574.19)">🚲⭐</text>
-    <text x="771.12" y="603.20" transform="rotate(11.31 771.12 603.20)">🥚🐔</text>
-    <text x="672.70" y="66.05" transform="rotate(6.12 672.70 66.05)">🐷🐸</text>
-    <text x="774.74" y="753.08" transform="rotate(10.05 774.74 753.08)">⚽🪑</text>
-    <text x="916.58" y="299.36" transform="rotate(0.52 916.58 299.36)">🛁🧼</text>
-    <text x="134.78" y="81.57" transform="rotate(-3.75 134.78 81.57)">🐔🐘</text>
-    <text x="553.64" y="644.41" transform="rotate(-3.11 553.64 644.41)">🐔🥚</text>
-    <text x="495.15" y="52.82" transform="rotate(-6.64 495.15 52.82)">⭐🚲</text>
-    <text x="731.27" y="297.71" transform="rotate(9.74 731.27 297.71)">🏠🚗</text>
-    <text x="128.97" y="467.11" transform="rotate(-11.89 128.97 467.11)">🐢🐰</text>
-    <text x="897.20" y="410.14" transform="rotate(-12.09 897.20 410.14)">🐭🐱</text>
-    <text x="98.80" y="595.03" transform="rotate(9.13 98.80 595.03)">🐘🐔</text>
-    <text x="319.59" y="50.78" transform="rotate(13.36 319.59 50.78)">🚗🏠</text>
-    <text x="563.65" y="150.34" transform="rotate(6.14 563.65 150.34)">🐱🐭</text>
-    <text x="354.11" y="730.34" transform="rotate(1.65 354.11 730.34)">🐭🍎</text>
-    <text x="962.10" y="633.98" transform="rotate(3.25 962.10 633.98)">🔑🏠</text>
-    <text x="783.30" y="137.80" transform="rotate(-1.66 783.30 137.80)">🐟🐶</text>
-    <text x="916.49" y="49.98" transform="rotate(-9.75 916.49 49.98)">🐶🐟</text>
-    <text x="968.84" y="520.11" transform="rotate(4.18 968.84 520.11)">🐸🌼</text>
-    <text x="318.94" y="271.72" transform="rotate(11.15 318.94 271.72)">🪑⚽</text>
+  <g font-family="Arial, sans-serif" font-size="52" text-anchor="middle">
+    <text x="214.20" y="588.87" transform="rotate(-3.27 214.20 588.87)">🐟🐶</text>
+    <text x="140.10" y="320.92" transform="rotate(-5.91 140.10 320.92)">🌼🐸</text>
+    <text x="654.19" y="186.50" transform="rotate(9.79 654.19 186.50)">✈️☁️</text>
+    <text x="930.70" y="275.30" transform="rotate(13.21 930.70 275.30)">☁️✈️</text>
+    <text x="630.34" y="614.13" transform="rotate(3.68 630.34 614.13)">🐢🐰</text>
+    <text x="905.21" y="678.29" transform="rotate(3.36 905.21 678.29)">☁️✈️</text>
+    <text x="666.00" y="312.96" transform="rotate(13.30 666.00 312.96)">🐸🌼</text>
+    <text x="356.76" y="321.81" transform="rotate(11.04 356.76 321.81)">🐢🐰</text>
+    <text x="821.74" y="468.93" transform="rotate(-6.46 821.74 468.93)">🐵🍌</text>
+    <text x="239.30" y="221.92" transform="rotate(-0.52 239.30 221.92)">🌼🐸</text>
+    <text x="205.21" y="491.66" transform="rotate(2.79 205.21 491.66)">🐰🐢</text>
+    <text x="196.62" y="136.29" transform="rotate(-0.11 196.62 136.29)">🏠🔑</text>
+    <text x="724.89" y="59.67" transform="rotate(-13.65 724.89 59.67)">🔑🏠</text>
+    <text x="542.15" y="773.39" transform="rotate(-4.48 542.15 773.39)">🐶🐟</text>
+    <text x="138.85" y="741.70" transform="rotate(9.13 138.85 741.70)">🍌🐵</text>
+    <text x="938.45" y="78.29" transform="rotate(-13.80 938.45 78.29)">🏠🚗</text>
+    <text x="459.45" y="440.74" transform="rotate(-11.43 459.45 440.74)">🔑🏠</text>
+    <text x="856.75" y="583.90" transform="rotate(-12.52 856.75 583.90)">✈️☁️</text>
+    <text x="100.02" y="57.31" transform="rotate(-6.11 100.02 57.31)">🍌🐵</text>
+    <text x="483.80" y="88.97" transform="rotate(6.48 483.80 88.97)">🐰🐢</text>
+    <text x="947.93" y="158.70" transform="rotate(7.88 947.93 158.70)">🐶🐟</text>
+    <text x="948.17" y="357.90" transform="rotate(2.44 948.17 357.90)">🐟🐶</text>
+    <text x="777.77" y="776.10" transform="rotate(-13.33 777.77 776.10)">🚗🏠</text>
+    <text x="133.34" y="400.81" transform="rotate(-1.36 133.34 400.81)">🐸🌼</text>
+    <text x="438.75" y="203.05" transform="rotate(-10.66 438.75 203.05)">🥚🐔</text>
+    <text x="383.01" y="667.55" transform="rotate(-8.85 383.01 667.55)">🏠🔑</text>
+    <text x="419.87" y="528.31" transform="rotate(-6.17 419.87 528.31)">🥚🐔</text>
+    <text x="341.73" y="763.95" transform="rotate(-12.94 341.73 763.95)">🚗🏠</text>
+    <text x="654.15" y="690.39" transform="rotate(0.82 654.15 690.39)">🐵🍌</text>
+    <text x="715.22" y="390.16" transform="rotate(-11.77 715.22 390.16)">🐔🥚</text>
+    <text x="619.85" y="535.22" transform="rotate(-11.06 619.85 535.22)">🏠🚗</text>
+    <text x="158.79" y="666.91" transform="rotate(6.05 158.79 666.91)">🐔🥚</text>
   </g>
 </svg>

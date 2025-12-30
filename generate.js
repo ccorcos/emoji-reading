@@ -6,10 +6,10 @@ const path = require("path");
 // Configuration
 const SVG_WIDTH = 1056; // 11 inches at 96 DPI (landscape)
 const SVG_HEIGHT = 816 - 18; // 8.5 inches at 96 DPI
-const FONT_SIZE = 42; // Large font for toddlers
-const PADDING = FONT_SIZE / 4; // Padding around each word
+const FONT_SIZE = 52; // Large font for toddlers
+const PADDING = 6; // Padding around each word
 const MAX_ATTEMPTS = 5000; // Maximum attempts to place a word
-const WORD_REPETITIONS = 1; // Number of times to include each word (1 = once, 2 = twice, etc.)
+const WORD_REPETITIONS = 2; // Number of times to include each word (1 = once, 2 = twice, etc.)
 
 // Read words from file
 function readWords(filename) {
