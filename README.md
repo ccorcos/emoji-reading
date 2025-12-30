@@ -8,4 +8,4 @@ Inspired by the [Dogfish test](https://www.mentava.com/ready-to-read).
 
 Place words in words.txt. Then `node generate.ts` and open reading.svg
 
-![](./reading-2.svg)
+![](./reading.svg)
